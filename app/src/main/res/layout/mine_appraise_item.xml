@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_60"
+    android:background="@color/c_ffffff"
+    >
+        <ImageView
+            android:id="@+id/img_fappraise"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@mipmap/icon_xin_select" />
+
+        <TextView
+            android:id="@+id/tv_appraise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="@string/my_appraise"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tv_appraise_num"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_160"
+            android:text="10"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tv_fappraise_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=">"
+            android:textSize="@dimen/sp_30" />
+</LinearLayout>

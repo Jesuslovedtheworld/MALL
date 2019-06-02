@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_330"
+    android:background="@color/c_ffffff"
+    android:layout_marginTop="@dimen/dp_20"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_60"
+        android:background="@color/c_ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_30"
+            android:background="@drawable/icon_search" />
+
+        <TextView
+            android:id="@+id/tv_classify_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/specia" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_specia"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_120"
+        android:layout_below="@id/ll"
+        android:background="@color/c_d9d9d9" />
+
+    <TextView
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/dp_50"
+        android:layout_height="@dimen/dp_25"
+        android:layout_below="@id/ll"
+        android:background="@drawable/special_hot"
+        android:gravity="center"
+        android:text="@string/hot"
+        android:textColor="@color/c_ffffff" />
+
+    <TextView
+        android:id="@+id/tv_specia_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_specia"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="五个春天"
+        android:textSize="@dimen/sp_18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_specia_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_specia_title"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="出具" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_specia_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:text="￥35元气" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:layout_below="@+id/tv_specia_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:background="@color/c_d9d9d9" />
+
+    <ImageView
+        android:id="@+id/img_love"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_below="@id/line"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@mipmap/icon_xin" />
+
+    <TextView
+        android:id="@+id/tv_special_love"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_toRightOf="@id/img_love"
+        android:text="100" />
+
+    <ImageView
+        android:id="@+id/img_eye"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_below="@id/line"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_toRightOf="@id/tv_special_love"
+        android:background="@mipmap/icon_eyes" />
+
+    <TextView
+        android:id="@+id/tv_eye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_toRightOf="@id/img_eye"
+        android:text="100" />
+
+    <ImageView
+        android:id="@+id/img_message"
+        android:layout_width="@dimen/dp_30"
+        android:layout_height="@dimen/dp_30"
+        android:layout_below="@id/line"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp_80"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_toRightOf="@id/tv_eye"
+        android:background="@mipmap/icon_nocomment" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_14"
+        android:layout_toRightOf="@id/img_message"
+        android:text="100" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line"
+        android:layout_marginTop="@dimen/dp_3"
+        android:layout_toRightOf="@id/tv_message"
+        android:text=">"
+        android:textSize="@dimen/sp_30" />
+</RelativeLayout>

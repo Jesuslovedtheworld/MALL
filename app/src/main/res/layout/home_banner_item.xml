@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_350"
+    android:background="@color/c_ffffff"
+    >
+
+    <com.youth.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_200" />
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp_20"
+        android:id="@+id/img_topic"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/banner"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:background="@mipmap/icon_discuss" />
+
+        <TextView
+            android:id="@+id/tv_topic"
+            android:textSize="@dimen/sp_20"
+            android:layout_alignLeft="@id/img_topic"
+            android:layout_below="@id/img_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/topic"
+            />
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_toRightOf="@id/img_topic"
+        android:id="@+id/img_youxuan"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/banner"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:background="@mipmap/icon_youxuan" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_topic"
+        android:layout_alignLeft="@id/img_youxuan"
+        android:text="@string/youxuan"
+        android:textSize="@dimen/sp_20" />
+    <ImageView
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_toRightOf="@id/img_youxuan"
+        android:id="@+id/img_tehui"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/banner"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:background="@mipmap/icon_discounts" />
+    <TextView
+        android:textSize="@dimen/sp_20"
+        android:layout_alignLeft="@id/img_tehui"
+        android:layout_below="@id/img_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tehui"
+        />
+    <ImageView
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_toRightOf="@id/img_tehui"
+        android:id="@+id/img_sing"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_40"
+        android:layout_below="@id/banner"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:background="@mipmap/icon_sign_in" />
+    <TextView
+        android:textSize="@dimen/sp_20"
+        android:layout_alignLeft="@id/img_sing"
+        android:layout_below="@id/img_topic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sing"
+        />
+    <View
+        android:id="@+id/line_home"
+        android:layout_below="@id/tv_topic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@color/c_d9d9d9"
+        />
+    <ImageView
+        android:id="@+id/img_trumpet"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_below="@id/line_home"
+        android:layout_width="@dimen/dp_35"
+        android:layout_height="@dimen/dp_35"
+        android:src="@mipmap/icon_trumpet"
+        />
+    <TextView
+        android:layout_marginLeft="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="自营家洗衣机上线来了"
+        android:layout_toRightOf="@id/img_trumpet"
+        android:layout_alignTop="@id/img_trumpet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="@dimen/sp_18"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_alignTop="@id/img_trumpet"
+        android:text="@string/details"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_30"
+        android:textColor="@color/c_39d9e1"
+        android:background="@drawable/home_details"
+        />
+</RelativeLayout>

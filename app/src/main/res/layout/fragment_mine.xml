@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_ecebeb"
+    android:orientation="vertical"
+    tools:context="com.baidu.ui.mine.fragment.MineFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_180"
+                    android:background="@color/c_e64f4f" />
+
+                <ImageView
+                    android:id="@+id/img_head"
+                    android:layout_width="@dimen/dp_80"
+                    android:layout_height="@dimen/dp_80"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp_50"
+                    android:background="@drawable/ic_launcher_background" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_50"
+                    android:layout_marginTop="@dimen/dp_60"
+                    android:layout_toRightOf="@id/img_head"
+                    android:text="姓名" />
+
+                <TextView
+                    android:layout_width="@dimen/dp_60"
+                    android:layout_height="@dimen/dp_25"
+                    android:layout_below="@id/tv_name"
+                    android:layout_marginLeft="@dimen/dp_40"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:layout_toRightOf="@id/img_head"
+                    android:background="@drawable/mine_circle"
+                    android:gravity="center"
+                    android:text="黄金会员"
+                    android:textColor="@color/c_ffffff" />
+
+                <TextView
+                    android:id="@+id/tv_go"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:text=">"
+                    android:textColor="@color/c_ffffff"
+                    android:textSize="@dimen/sp_30" />
+            </RelativeLayout>
+
+            <include layout="@layout/mine_one" />
+
+            <include layout="@layout/mine_two" />
+
+            <include layout="@layout/mine_footmark_item" />
+
+            <include layout="@layout/line_black" />
+
+            <include layout="@layout/mine_appraise_item" />
+
+            <include layout="@layout/line_black" />
+
+            <include layout="@layout/mine_address_item" />
+
+            <include layout="@layout/line_black"/>
+
+            <include layout="@layout/mine_member_item" />
+
+            <include layout="@layout/line_black"/>
+
+            <include layout="@layout/mine_serivice_item" />
+
+            <include layout="@layout/line_black"/>
+
+            <include layout="@layout/mine_setting_item" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

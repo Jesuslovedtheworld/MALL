@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Mall</string>
+    <string name="home">首页</string>
+    <string name="classify">分类</string>
+    <string name="mine">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="specia">专题</string>
+    <string name="Mall">Mall商城</string>
+    <string name="search">搜索</string>
+    <string name="shop_car">购物车</string>
+    <string name="hot">热门</string>
+
+    <string name="unknow_error">未知错误</string>
+    <string name="conn_error">连接失败</string>
+    <string name="conn_timeout">连接超时</string>
+    <string name="net_error">网络错误</string>
+    <string name="parse_error">解析异常</string>
+    <string name="net_unused">当前网络不可用</string>
+    <string name="topic">话题</string>
+    <string name="youxuan">优选</string>
+    <string name="tehui">特惠</string>
+    <string name="sing">签到</string>
+    <string name="details">详情</string>
+    <string name="Brand_manufacturer_direct_supply">品牌制造商直供</string>
+    <string name="More_recommended">更多推荐</string>
+    <string name="seckill">秒杀专区</string>
+    <string name="integrate">积分</string>
+    <string name="coupon">优惠卷</string>
+    <string name="follow">关注</string>
+    <string name="my_order">我的订单</string>
+    <string name="stay_pay">待付款</string>
+    <string name="stay_take">待收货</string>
+    <string name="stay_appraise">待评价</string>
+    <string name="customer_service">售后服务</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="commodity">商品</string>
+    <string name="my_footmark">我的足迹</string>
+    <string name="my_appraise">我的评价</string>
+    <string name="address_manage">地址管理</string>
+    <string name="address_member">我的会员</string>
+    <string name="service_center">服务中心</string>
+    <string name="system_setting">系统设置</string>
+</resources>

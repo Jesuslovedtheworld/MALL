@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_60"
+    android:background="@color/c_ffffff"
+    android:layout_marginTop="@dimen/dp_10"
+    >
+        <ImageView
+            android:id="@+id/img_member"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@mipmap/icon_xin_select" />
+
+        <TextView
+            android:id="@+id/tv_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:text="@string/address_member"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tv_member_num"
+            android:layout_width="@dimen/dp_65"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dp_130"
+            android:text="黄金会员"
+            android:textSize="@dimen/sp_16" />
+
+        <TextView
+            android:id="@+id/tv_member_go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=">"
+            android:textSize="@dimen/sp_30" />
+</LinearLayout>
